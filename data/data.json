@@ -1,0 +1,94 @@
+{
+    "events_categories": [
+        {
+            "id": "networking",
+            "title": "Networking Events",
+            "description": "Allows you to networking with other people within the industry.",
+            "image": "images/networking/networking.jpg"
+        },
+        {
+            "id": "workshop",
+            "title": "Workshop Events",
+            "description": "Find the workshop that suits you best.",
+            "image": "images/workshops/workshops.jpg"
+        },
+        {
+            "id": "music",
+            "title": "Music Events",
+            "description": "Lots of people from different parts of the country come to attend the show and enjoy the music",
+            "image": "images/music/music.jpg"
+        },
+        {
+            "id": "sport",
+            "title": "Sport Events",
+            "description": "Share a passion and love for different sporting activities.",
+            "image": "images/sports/sport.jpg"
+        }
+    ],
+    "all_events": [
+        {
+            "id": "e1",
+            "title": "DJ music concert",
+            "category": "music",
+            "description": "Electronic music events during sunset at spectacular locations around the world.",
+            "image": "images/music/dj-set.jpg",
+            "date": "2022-03-08",
+            "max_registrations": "40",
+            "emails_registered": [
+                "test@test.com"
+            ]
+        },
+        {
+            "id": "e2",
+            "title": "Open-air health",
+            "category": "sport",
+            "description": "The activities include Tai Chi, Pilates and Yoga, gymnastics, health sports, tango dancing, senior dancing, holistic fitness training, back exercise for all ages, physical and mental fit through exercise, variety of movement activities and so much more.",
+            "image": "images/sports/sport-openair.jpg",
+            "date": "2021-05-30",
+            "max_registrations": "20",
+            "emails_registered": [
+                "first@last.com"
+            ]
+        },
+        {
+            "id": "e3",
+            "title": "Free your art",
+            "category": "workshop",
+            "description": "As a painter, art classes are where you learn about brushes, paints, mediums, strokes, how to prepare your surface, how to paint, how to take care of your tools. A workshop, on the other hand, is where you learn a particular artist's methods.",
+            "image": "images/workshops/painting-workshop.jpg",
+            "date": "2021-06-10",
+            "max_registrations": "8",
+            "emails_registered": []
+        },
+        {
+            "id": "e4",
+            "title": "UX - Creativity and teamwork",
+            "category": "workshop",
+            "description": "A collaborative group session which focuses on a specific goal or outcome. It's not just a meeting between UX designers and stakeholders; it's an active, interactive session, carefully designed to empower progress through teamwork.",
+            "image": "images/workshops/UX-workshop.jpg",
+            "date": "2022-02-03",
+            "max_registrations": "10",
+            "emails_registered": []
+        },
+        {
+            "id": "e5",
+            "title": "Making items from wood",
+            "category": "workshop",
+            "description": "We offer woodworking workshops, guided practice, team building and expert consultation for all levels and abilities.",
+            "image": "images/workshops/woodworker-workshop.jpg",
+            "date": "2022-12-13",
+            "max_registrations": "5",
+            "emails_registered": []
+        },
+        {
+            "id": "e6",
+            "title": "Networking for extroverts",
+            "category": "networking",
+            "description": "You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.",
+            "image": "images/networking/networking.jpg",
+            "date": "2022-10-02",
+            "max_registrations": "25",
+            "emails_registered": []
+        }
+    ]
+}
