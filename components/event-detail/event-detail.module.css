@@ -61,14 +61,14 @@
     width: 90%;
     max-width: 40em;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 3rem;
     text-align: center;
 }
 
 @media (min-width: 768px) {
     .summary h1 {
         font-size: 5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .logistics {
