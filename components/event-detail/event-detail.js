@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { Fragment } from 'react';
 import LogisticsItem from './logistics-item';
 import UsersIcon from '../icons/users-icon';
 import DateIcon from '../icons/date-icon';
@@ -24,11 +23,9 @@ const EventDetail = (props) => {
     });
 
   return (
-    <Fragment>
-        <section className={classes.summary}>
+    <section className={classes.summary}>
         <h1>{title}</h1>
-        </section>
-        <section className={classes.logistics}>
+        <div className={classes.logistics}>
             <div className={classes.image}>
                 <Image src={`/${image}`} alt={imageAlt} width={350} height={350} />
             </div>
@@ -40,12 +37,12 @@ const EventDetail = (props) => {
                     <address>{`${registrationsNumber} / ${registrations}`}</address>
                 </LogisticsItem>
             </ul>
-        </section>
-        <section className={classes.content}>
+        </div>
+        <div className={classes.content}>
             <p>{description}</p>
-        </section>
+        </div>
         <EventRegistration />
-    </Fragment>
+    </section>
   );
 }
 
