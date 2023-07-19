@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
           <Head>
             <title>Next Events</title>
             <meta name="description" content="find a lot of great events" />
-            <meta name="viewport" content="width=device-width, initial-scale=0.1" />
+            <meta name="viewport" content="width=device-width, initial-scale=0.5" />
           </Head>
           <Component {...pageProps} />
         </Layout>
